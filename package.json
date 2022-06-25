@@ -1,0 +1,25 @@
+{
+  "name": "simplesmartcontractupgradeproxy",
+  "version": "1.0.0",
+  "description": "Example Smart Contract upgrade via proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlaothong/SimpleSmartContractUpgradeProxy.git"
+  },
+  "author": "Teerachai Laothong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tlaothong/SimpleSmartContractUpgradeProxy/issues"
+  },
+  "homepage": "https://github.com/tlaothong/SimpleSmartContractUpgradeProxy#readme",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@openzeppelin/truffle-upgrades": "^1.15.0",
+    "@truffle/hdwallet-provider": "^2.0.9"
+  }
+}
